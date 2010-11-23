@@ -22,6 +22,11 @@ pdf.rectangle(140, 380, 50, 13)
 pdf.circle(140, 380)
 pdf.save_as "my_output.pdf"
 
+== EXAMPLE:(show)
+pdf.show
+#displaying all the input keys
+
+
 == INSTALL:
 
 $ sudo gem install pdf-stamper

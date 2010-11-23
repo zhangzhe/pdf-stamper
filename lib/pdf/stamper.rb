@@ -78,6 +78,18 @@ module PDF
       File.open(file, "wb") { |f| f.write to_s }
     end
     
+    # A show method for displaying all the input keys
+    def show
+      treemap = Rjb::import('java.util.TreeMap')
+      @fields = @form.getFields()
+      fs = treemap.new(@fields)
+      @k = fs.keySet()  # @k gets sorted list of field names
+      itr = @k.iterator()
+      while itr.hasNext()
+        puts "#{itr.next().to_string}" 
+      end 
+    end
+    
     private
 
     def fill
