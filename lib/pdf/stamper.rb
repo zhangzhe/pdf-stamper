@@ -90,6 +90,11 @@ module PDF
       end 
     end
     
+    # use to fill radio_button
+    def radio_button(key, value)
+      @form.setField(key.to_s, value.to_s);
+    end
+    
     private
 
     def fill

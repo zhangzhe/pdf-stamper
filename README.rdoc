@@ -22,10 +22,12 @@ pdf.rectangle(140, 380, 50, 13)
 pdf.circle(140, 380)
 pdf.save_as "my_output.pdf"
 
-== EXAMPLE:(show)
-pdf.show
+== EXAMPLE(by Gary)
 #displaying all the input keys
+pdf.show
 
+#fill radio_button
+pdf.radio_button :gary, "strong"
 
 == INSTALL:
 
