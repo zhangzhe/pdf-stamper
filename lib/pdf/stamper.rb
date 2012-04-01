@@ -79,6 +79,7 @@ module PDF
     end
     
     # A show method for displaying all the input keys
+    # added by gary 2010.11.23
     def show
       treemap = Rjb::import('java.util.TreeMap')
       @fields = @form.getFields()

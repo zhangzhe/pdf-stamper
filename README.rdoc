@@ -22,7 +22,8 @@ pdf.rectangle(140, 380, 50, 13)
 pdf.circle(140, 380)
 pdf.save_as "my_output.pdf"
 
-== EXAMPLE(by Gary)
+(added by Gary 2010.11.23)
+== More EXAMPLE:
 #displaying all the input keys
 pdf.show
 
